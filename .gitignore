@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Django migrations (optional: but keep migrations for assignments)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# SQLite database
+db.sqlite3
+
+# Django secret key (if using env files)
+.env
+*.env
+*.secret
+
+# VSCode settings
+.vscode/
+.code-workspace
+
+# macOS files
+.DS_Store
+
+# Logs
+*.log
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+
+# Node files (if frontend uses npm)
+node_modules/
