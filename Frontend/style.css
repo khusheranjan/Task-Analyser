@@ -1,0 +1,36 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+input, textarea, button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+pre {
+    background: #eee;
+    padding: 15px;
+    border-radius: 10px;
+}
